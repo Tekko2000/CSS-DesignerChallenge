@@ -1,34 +1,279 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     margin: 0;
     font-family: 'Roboto';
 }
-#start{
-    background: url(../img/ilustracion1.png) right/contain no-repeat;
-    padding: 5%;
+#sec1{
+    background: url(../img/ilustracion_people.png) right/contain no-repeat,url(../img/ilustracion1.png) right top/contain no-repeat;
+    padding:1vh 0 5% 0%;
 }
+
+/* BEGINN DER 1. SECTION */
+
 .logo{
     position:fixed;
     left:2%;
     top:3%;
 }
 .logotext{
-    /* padding-left: 5.5%;
-    padding-top: 18px; */
+    padding-top: 35px;
+    margin-left: 5%;
     line-height:5px;
     font-size:20px;
 }
-#start > h1{
-    width: 50%;
-    font-size: 100px;
-    padding-left: 5%;
+.logotext h1{
+    margin: 0;
+}
+.logotext p{
+    line-height:50px;
+}
+#sec1 > h1{
+    width: 34%;
+    font-size: 80px;
+    padding-left: 8%;
     padding-top: 12%;
     margin: 0;
     word-spacing: 10px;
 }
-#start > p{
+#sec1 > p{
     width:40%;
     font-size: 30px;
-    padding-left:5%;
+    padding-left:8%;
     margin: 0;
 }
+#sec1 > p:nth-child(5){
+    color:#ff3571;
+    font-size:25px;
+    font-weight:400;
+    margin-top: 10%;
+}
+
+/* ENDE DER 1. SECTION */
+
+/* IMAGES START*/
+
+.images{
+    padding-top: 5%;
+}
+
+/* IMAGES ENDE */
+
+/* BEGINN DER 2. SECTION */
+
+.text1 {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 12%;
+}
+.text1 h1{
+    width:22%;
+    font-size:70px;
+    font-weight:900;
+    margin: 0;
+    padding-left: 10%;
+}
+.text1 p{
+    width:660px;
+    font-size: 20px;
+    font-weight:100;
+    line-height: 40px;
+    margin: 0;
+    padding-right: 21%;
+    padding-top: 1.2%;
+}
+#sec2 > h1{
+    margin: 0;
+    font-size:70px;
+    width:45%;
+    padding-left:10%;
+    padding-top: 10%;
+}
+
+/* ENDE DER 2. SECTION */
+
+/* BEGINN DER 3. SECTION */
+
+#sec3{
+    padding:10% 10% 0 10%;
+    display:flex;
+}
+#sec3 > div > h1 > img{
+    padding-right:10px;
+}
+#sec3 h1,p{
+    margin: 0;
+}
+#sec3 p{
+    font-size: 20px;
+    font-weight:100;
+    line-height:40px;
+    padding-left: 10%;
+}
+.ideas{
+    width:32%;
+    display: flex;
+    flex-direction: column;
+}
+.ideas1{
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+}
+/* ENDE DER 3. SECTION */
+
+/* ANFANG DER 4. SECTION */
+
+#sec4{
+    padding-top: 10%;
+}
+.sec4div{
+    text-align: center;
+}
+#sec4 h1:first-of-type{
+    margin: 0;
+    font-size:60px;
+}
+#sec4 p:first-of-type{
+    padding: 3% 28% 0 28%;
+    margin:0;
+    font-size:25px;
+    font-weight:100;
+}
+/* ENDE DER 4. SECTION*/
+
+/* ANFANG DER 5. SECTION*/
+
+#sec5{
+    display: flex;
+}
+#sec5 img{
+    padding: 10% 0 0 10%;
+}
+#sec5 h1:first-of-type{
+    color:#dddddd;
+    font-size:100px;
+}
+#sec5 p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height:40px;
+}
+#sec5 div{
+    padding: 6% 12% 0 6%;
+}
+#sec5 div img{
+    padding: 0;
+}
+
+/* ENDE DER 5. SECTION  */
+
+/* ANGANG DER 6. SECTION */
+
+#sec6{
+    display: flex;
+}
+#sec6 img{
+    padding: 10% 10% 0 0;
+}
+#sec6 h1:first-of-type{
+    color:#dddddd;
+    font-size:100px;
+}
+#sec6 p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height:40px;
+}
+#sec6 div{
+    padding: 6% 6% 0 10%;
+}
+
+/* ENDE DER 6. SECTION*/
+
+/* ANFANG DER 7. SECTION*/
+
+#sec7{
+    display: flex;
+}
+#sec7 img{
+    padding: 10% 0 0 10%;
+}
+#sec7 h1:first-of-type{
+    color:#dddddd;
+    font-size:100px;
+}
+#sec7 p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height:40px;
+}
+#sec7 div{
+    padding: 6% 7% 0 10%;
+}
+#sec7 div img{
+    padding: 0;
+}
+
+/* ENDE DER 7. SECTION*/
+
+/* ANFANG DER 8. SECTION*/
+
+#sec8{
+    display: flex;
+}
+#sec8 img{
+    padding: 10% 10% 0 0;
+}
+#sec8 h1:first-of-type{
+    color:#dddddd;
+    font-size:100px;
+}
+#sec8 p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height:40px;
+}
+#sec8 div{
+    padding: 6% 6% 0 10%;
+}
+
+/* ENDER DER 8. SECTION*/
+
+/* BEGINN DES FOOTER */
+
+footer {
+    padding-top: 10%;
+    text-align: center;
+}
+footer h1{
+    font-size:60px;
+}
+footer p{
+    font-size:20px;
+    font-weight:100;
+    padding-bottom: 2%;
+}
+footer input:first-of-type{
+    padding: 25px 220px;
+    margin-bottom: 2%;
+}
+footer input:nth-of-type(2){
+    padding:15px 60px;
+    color:#fff;
+    background-color:#ff3571 ;
+    border:none;
+}
+footer input:nth-of-type(2):hover{
+background: rgb(255,53,113);
+background: linear-gradient(90deg, rgba(255,53,113,1) 0%, rgba(60,48,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+footer p:nth-of-type(2){
+    text-align:left;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+/* ENDE DES FOOTER */

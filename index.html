@@ -140,13 +140,29 @@
     </main>
     <!-- FOOTER ANFANG -->
     <footer>
-        <h1>Do you like this challenge?</h1>
-        <p>Subscribe to be the first to hear about updates, tips and recommendations!</p>
-        <input type="email" placeholder="Write your email here">
-        <br>
-        <input type="button" value="Subscribe">
-        <p>Created with Love by a Webdesigner <img src="assets/img/love.png" alt="#" width="30"></p>
+        <section id="signForm" class="center_all" onsubmit="return false">
+            <h1 id="sub1">Do you like this challenge?</h1>
+            <p id="sub2">Subscribe to be the first to hear about updates, tips and recommendations!</p>
+            <form action="" id="sub3">
+                <input type="email" name="Email" id="emailHTML" pattern=".+@globex.com"
+                    placeholder="Write your email here">
+                <br>
+                <input type="button" value="Subscribe" onclick="subscribeConfirmation()">
+            </form>
+            <section id="popUp">
+                <h1>YOUR EMAIL HAS BEEN CONFIRMED.</h1>
+                <h1>THANKS FOR SUBSCRIBNG</h1>
+                <p>Now we just need to confirm your email address - please click the link in the email we sent you.
+                    Thanks!</p>
+                <form action="">
+                    <input type="button" id="returnpage" value="BACK TO DESIGNCHALLENGE.COM" onclick="returnToPage()">
+                </form>
+            </section>
+        </section>
+        <p class="end">Created with Love by a Webdesigner <img src="assets/img/love.png" alt="#" width="30"></p>
     </footer>
+    <!-- FOOTER ENDE -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

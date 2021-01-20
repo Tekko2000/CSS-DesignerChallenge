@@ -264,12 +264,13 @@ footer input:nth-of-type(2){
     color:#fff;
     background-color:#ff3571 ;
     border:none;
+    border-radius: 5px;
 }
 footer input:nth-of-type(2):hover{
 background: rgb(255,53,113);
 background: linear-gradient(90deg, rgba(255,53,113,1) 0%, rgba(60,48,255,1) 100%, rgba(0,212,255,1) 100%);
 }
-footer p:nth-of-type(2){
+.end{
     text-align:left;
     padding-top: 2%;
     padding-bottom: 0;
@@ -277,3 +278,19 @@ footer p:nth-of-type(2){
 }
 
 /* ENDE DES FOOTER */
+
+/* JS POP UP EMAIL CONFIRMATION */
+
+#popUp{
+    display: none;
+}
+#returnpage{
+    color: #fff;
+    background-color:#3c30ff;
+    border-radius: 10px;
+    border:none;
+}
+#returnpage:hover{
+    color:red;
+    background-color: #ffe100;
+}
